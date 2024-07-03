@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "allocineproject"
+version = "0.1.0"
+description = ""
+authors = ["MiroMilano59 <153615242+MiroMilano59@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.2"
+azure-functions = "^1.20.0"
+sqlalchemy = "^2.0.31"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
